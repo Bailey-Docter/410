@@ -144,3 +144,25 @@ footer a:visited {
 footer a:hover {
     text-decoration: underline;
 }
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+td, th {
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-child(even) {
+	background-color:#011d22;
+	color: white;
+}
+
+tr:nth-child(odd) {
+	background-color: #011d22;
+	color: white;
+}
+	
